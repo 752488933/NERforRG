@@ -44,8 +44,3 @@ share one document split, tokenizer, alignment pipeline, and exact-span metric
 implementation. Install the separate NER environment and run:
 
 
-## Citation and license
-
-Add the final article citation and DOI after acceptance. No software or data
-license has been selected in this draft; choose one only after confirming the
-rights for every included external dataset.
