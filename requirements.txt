@@ -1,0 +1,6 @@
+torch>=1.13,<2.5
+transformers>=4.28,<4.45
+tokenizers>=0.13,<0.20
+numpy>=1.23,<2.1
+pandas>=1.5,<3
+tqdm>=4.64,<5
