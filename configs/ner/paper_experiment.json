@@ -1,0 +1,29 @@
+{
+  "experiment": {
+    "seed": 42,
+    "deterministic": true,
+    "status": "paper-compatible reconstruction; original final training source was unavailable"
+  },
+  "data": {
+    "split_ratios": [0.7, 0.2, 0.1],
+    "max_length": 128,
+    "negative_definition": "empty source label list; effective all-O count is reported separately after label mapping"
+  },
+  "model": {
+    "pretrained_model_name": "bert-base-cased",
+    "dropout": 0.1,
+    "lstm_hidden_size": 256,
+    "lstm_layers": 1
+  },
+  "training": {
+    "batch_size": 64,
+    "epochs": 30,
+    "learning_rate": 5e-5,
+    "weight_decay": 0.0,
+    "warmup_ratio": 0.1,
+    "max_grad_norm": 5.0,
+    "gradient_accumulation_steps": 1,
+    "early_stopping_patience": 0,
+    "num_workers": 0
+  }
+}
